@@ -1,4 +1,4 @@
-# 🎧 VibePlayer: Universal Media Experience
+# 🎧 ALTP: ALL TYPE MEDIA PLAYER
 
 VibePlayer is a high-performance, web-first media player designed to bridge the gap between browser-based flexibility and native app power. It aims to handle virtually any media format while offering a seamless transition between immersive video playback and background audio-only "music mode."
 
