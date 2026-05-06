@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTP | All Type Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="coi-serviceworker.js"></script>
+</head>
+<body>
+    <div class="vibe-container">
+        <header>
+            <h1>ALTP</h1>
+            <p>Universal Media Experience</p>
+        </header>
+
+        <main class="glass-card">
+            <div id="player-container">
+                <video id="main-video" controls>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="controls-vibe">
+                <input type="file" id="file-input" hidden accept="video/*,audio/*">
+                <label for="file-input" class="btn-primary">Select Media</label>
+                
+                <div class="toggle-container">
+                    <span>Video</span>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Audio Only</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
